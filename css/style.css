@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: gray;
+  padding: 0 30px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body>* {
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.75rem;
+}
+
+img {
+  width: 25%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+  }
+
+  img {
+    width: 60%;
+  }
+}
